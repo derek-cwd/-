@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8553f78-a255-4d4d-a221-a4872c747581" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py" afterDir="false" />
-    </list>
+    <list default="true" id="d8553f78-a255-4d4d-a221-a4872c747581" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="141" column="6" lean-forward="true" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+            <state relative-caret-position="569">
+              <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -125,13 +122,6 @@
             </path>
             <path>
               <item name="meiduo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meiduo" type="462c0819:PsiDirectoryNode" />
-              <item name="meiduo_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="meiduo_mall" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meiduo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -206,12 +196,12 @@
       <option name="presentableId" value="Default" />
       <updated>1587349503647</updated>
       <workItem from="1587349513562" duration="1251000" />
-      <workItem from="1587378935215" duration="3625000" />
+      <workItem from="1587378935215" duration="3963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4876000" />
+    <option name="totallyTimeSpent" value="5214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="896" height="863" extended-state="6" />
@@ -266,7 +256,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/meiduo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1587382511806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall" />
+    <SUITE FILE_PATH="coverage/meiduo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1587383556333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meiduo_mall" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/db/backends/mysql/base.py">
@@ -302,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="141" column="6" lean-forward="true" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+        <state relative-caret-position="569">
+          <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
         </state>
       </provider>
     </entry>
