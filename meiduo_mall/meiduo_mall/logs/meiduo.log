@@ -1,3 +1,13 @@
 INFO 2020-04-20 11:52:37,569 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-20 12:05:05,323 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-20 12:17:47,954 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:35:23,843 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-04-20 12:35:24,704 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:52:50,782 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:53:45,319 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:54:08,176 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:55:29,382 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:56:21,819 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:56:54,977 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:58:22,181 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-20 12:59:47,249 autoreload 597 Watching for file changes with StatReloader

@@ -190,3 +190,8 @@ LOGGING = {
         },
     }
 }
+
+
+
+#告诉工程,使用我们定义的模型类替换默认的模型类
+AUTH_USER_MODEL = 'users.User'
