@@ -36,3 +36,27 @@ INFO 2020-04-21 10:16:44,666 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_m
 INFO 2020-04-21 10:16:45,241 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-21 11:16:17,328 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
 INFO 2020-04-21 11:16:19,066 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:41:50,069 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-21 11:42:24,579 log 228 Not Found: /image_codes/d1e7f829-0e2c-4f9f-9a93-1e021047e810/
+WARNING 2020-04-21 11:42:24,579 basehttp 154 "GET /image_codes/d1e7f829-0e2c-4f9f-9a93-1e021047e810/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:27,191 log 228 Not Found: /image_codes/4779212f-8c58-4ffc-877a-2f3379bfe2d8/
+WARNING 2020-04-21 11:42:27,194 basehttp 154 "GET /image_codes/4779212f-8c58-4ffc-877a-2f3379bfe2d8/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:28,754 log 228 Not Found: /image_codes/7840a872-76a1-4b13-8c8c-16b3c83ce23b/
+WARNING 2020-04-21 11:42:28,755 basehttp 154 "GET /image_codes/7840a872-76a1-4b13-8c8c-16b3c83ce23b/ HTTP/1.1" 404 2484
+INFO 2020-04-21 11:42:33,726 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+WARNING 2020-04-21 11:42:35,668 log 228 Not Found: /image_codes/944398f9-ac0d-4a5c-a602-f878b43c78fd/
+WARNING 2020-04-21 11:42:35,668 basehttp 154 "GET /image_codes/944398f9-ac0d-4a5c-a602-f878b43c78fd/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:36,141 log 228 Not Found: /image_codes/6887cd2f-4a46-44ae-93d6-00fffcb06368/
+WARNING 2020-04-21 11:42:36,143 basehttp 154 "GET /image_codes/6887cd2f-4a46-44ae-93d6-00fffcb06368/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:36,770 log 228 Not Found: /image_codes/75566025-0528-490f-805b-d31b41742dec/
+WARNING 2020-04-21 11:42:36,771 basehttp 154 "GET /image_codes/75566025-0528-490f-805b-d31b41742dec/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:37,223 log 228 Not Found: /image_codes/8c5b7310-9e2d-48a6-a22c-b7ac24f287dd/
+WARNING 2020-04-21 11:42:37,224 basehttp 154 "GET /image_codes/8c5b7310-9e2d-48a6-a22c-b7ac24f287dd/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:37,413 log 228 Not Found: /image_codes/ce725482-0c06-47a2-8e20-f20e86f9dd5c/
+WARNING 2020-04-21 11:42:37,414 basehttp 154 "GET /image_codes/ce725482-0c06-47a2-8e20-f20e86f9dd5c/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:37,598 log 228 Not Found: /image_codes/2a41383f-898a-496a-9be9-ab641264d07e/
+WARNING 2020-04-21 11:42:37,599 basehttp 154 "GET /image_codes/2a41383f-898a-496a-9be9-ab641264d07e/ HTTP/1.1" 404 2484
+WARNING 2020-04-21 11:42:37,722 log 228 Not Found: /image_codes/bba9ae60-51ce-4001-a266-ef8839d37883/
+WARNING 2020-04-21 11:42:37,723 basehttp 154 "GET /image_codes/bba9ae60-51ce-4001-a266-ef8839d37883/ HTTP/1.1" 404 2484
+INFO 2020-04-21 11:48:29,160 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/vertifications/urls.py changed, reloading.
+INFO 2020-04-21 11:48:29,646 autoreload 597 Watching for file changes with StatReloader
