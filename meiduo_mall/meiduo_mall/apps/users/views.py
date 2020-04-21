@@ -22,3 +22,19 @@ class UsernameCountView(View):
         return JsonResponse({'code': 0,
                              'errmsg': 'ok',
                              'count': count})
+
+
+class MobileCountView(View):
+
+    def get(self, request, mobile):
+
+        #1.查询mobile在mysql中的个数
+        try:
+            count = User.object.filter(mobile=mobile).count()
+        except Exception as e:
+            return JsonResponse({'code':400,
+                                 'errmsg': '查询数据库出错'})
+        #2. 返回结果(json)
+        return JsonResponse({'code': 0,
+                             'errmsg': 'ok',
+                             'count': count})

@@ -11,3 +11,20 @@ INFO 2020-04-20 12:56:21,819 autoreload 597 Watching for file changes with StatR
 INFO 2020-04-20 12:56:54,977 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-20 12:58:22,181 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-20 12:59:47,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 02:10:18,347 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 02:22:03,040 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 02:23:18,944 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-21 02:23:25,034 log 228 Not Found: /image_codes/fb66d2b0-be6a-424c-83b0-39eb735c0b63/
+WARNING 2020-04-21 02:23:25,050 basehttp 154 "GET /image_codes/fb66d2b0-be6a-424c-83b0-39eb735c0b63/ HTTP/1.1" 404 2291
+INFO 2020-04-21 02:24:18,670 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+INFO 2020-04-21 02:25:22,095 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-21 02:25:29,961 log 228 Not Found: /image_codes/f909bfa8-9644-4dff-b086-3850d067273c/
+WARNING 2020-04-21 02:25:29,963 basehttp 154 "GET /image_codes/f909bfa8-9644-4dff-b086-3850d067273c/ HTTP/1.1" 404 2291
+INFO 2020-04-21 02:26:16,540 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 02:26:35,031 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 02:47:52,203 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 02:48:24,504 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 09:45:37,671 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-04-21 09:45:50,317 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 09:53:13,581 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 09:56:46,116 autoreload 597 Watching for file changes with StatReloader
