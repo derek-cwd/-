@@ -28,3 +28,11 @@ INFO 2020-04-21 09:45:37,671 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_m
 INFO 2020-04-21 09:45:50,317 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-21 09:53:13,581 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-21 09:56:46,116 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 10:02:28,855 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-04-21 10:02:29,385 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 10:08:26,207 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-04-21 10:08:26,732 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 10:16:44,666 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-04-21 10:16:45,241 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:16:17,328 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-04-21 11:16:19,066 autoreload 597 Watching for file changes with StatReloader

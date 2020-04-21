@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'users',
     # 添加 django-cors-headers 使其可以进行 cors 跨域
     'corsheaders',
+    #注册子应用
+    'vertifications'
 ]
 
 MIDDLEWARE = [
@@ -148,6 +150,13 @@ CACHES = {
     "session": { # session 信息: 存到 1 号库
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "verify_code": { # 验证码 信息: 存到 2 号库
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
