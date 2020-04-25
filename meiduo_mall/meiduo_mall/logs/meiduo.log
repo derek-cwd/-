@@ -165,3 +165,38 @@ INFO 2020-04-25 10:58:24,010 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_m
 INFO 2020-04-25 10:58:32,339 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-25 11:02:49,486 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
 INFO 2020-04-25 11:02:50,000 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 11:11:09,842 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 11:11:10,442 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:13:53,043 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 12:14:21,386 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:14:58,616 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 12:14:59,515 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:16:05,873 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 12:16:07,201 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:17:08,333 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 12:17:08,837 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:20:19,089 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/vertifications/views.py changed, reloading.
+INFO 2020-04-25 12:20:19,684 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:21:00,567 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 12:21:00,997 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:22:26,561 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 12:22:27,009 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 12:24:27,525 basehttp 154 "GET /image_codes/fb1e37ad-48b0-4999-b8bd-deb034db5423/ HTTP/1.1" 200 3082
+INFO 2020-04-25 12:24:32,131 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 12:24:40,261 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 12:24:40,294 basehttp 154 "GET /sms_codes/13682540633/?image_code=g5kj&image_code_id=fb1e37ad-48b0-4999-b8bd-deb034db5423 HTTP/1.1" 200 69
+INFO 2020-04-25 12:26:59,061 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 12:27:01,862 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 12:27:04,509 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 12:27:17,554 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+INFO 2020-04-25 12:27:32,240 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 12:27:32,265 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+INFO 2020-04-25 12:27:32,402 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+WARNING 2020-04-25 12:27:32,445 log 228 Not Found: /register/
+WARNING 2020-04-25 12:27:32,445 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-25 12:27:35,659 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+WARNING 2020-04-25 12:27:35,682 log 228 Not Found: /register/
+WARNING 2020-04-25 12:27:35,682 basehttp 154 "POST /register/ HTTP/1.1" 404 2738
+INFO 2020-04-25 12:27:35,698 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+INFO 2020-04-25 12:58:30,008 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/vertifications/views.py changed, reloading.
+INFO 2020-04-25 12:58:33,080 autoreload 597 Watching for file changes with StatReloader

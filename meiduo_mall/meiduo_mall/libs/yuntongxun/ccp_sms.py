@@ -4,9 +4,13 @@ import ssl
 
 import sys
 
+# sys.path ====> []
+
 sys.path.insert(0, '../../../')
 
-from meiduo_mall.libs.yuntongxun1.CCPRestSDK import REST
+# from .CCPRestSDK import REST
+from meiduo_mall.libs.yuntongxun.CCPRestSDK import REST
+# from .CCPRestSDK import REST
 
 ssl._create_default_https_context = ssl._create_unverified_context  # 全局取消证书验证
 
@@ -19,7 +23,7 @@ _accountSid = '8aaf07087172a6ee01719c03aa421910'
 _accountToken = '0b4eaffd0f4347479979f7c16c80cfb7'
 
 # 请使用管理控制台首页的APPID或自己创建应用的APPID
-_appId = '8a216da8719c20ad0171af7929de0a18'
+_appId = '8aaf07087172a6ee01719c03aaa41917'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
 _serverIP = 'sandboxapp.cloopen.com'
@@ -82,4 +86,5 @@ class CCP(object):
 
 if __name__ == '__main__':
     # 注意： 测试的短信模板编号为1
-    CCP().send_template_sms('13423810138', ['derek', 1], 1)
+    ret = CCP().send_template_sms(13682540633, ['习大大发来贺电', 5], 1)
+    print(ret)

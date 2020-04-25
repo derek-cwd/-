@@ -7,7 +7,7 @@ from django_redis import get_redis_connection
 import logging, random
 logger = logging.getLogger('django')
 
-from meiduo_mall.libs.yuntongxun1.ccp_sms import CCP
+from meiduo_mall.libs.yuntongxun.ccp_sms import CCP
 
 
 
@@ -89,12 +89,20 @@ class SMScodeView(View):
         #9. 打印短信验证码
         logger.info(sms_code)
 
+        #创建redis管道:
+
+        p1 = redis_conn.pipeline()
+
         #10. 把短信验证码保存到redis
-        redis_conn.setex('sms_%s' % mobile, 300, sms_code)
-        redis_conn.setex('send_flag_%s' % mobile, 60, 1)
+        p1.setex('sms_%s' % mobile, 300, sms_code)
+        p1.setex('send_flag_%s' % mobile, 60, 1)
+
+        #执行管道
+        p1.excute()
 
         #11. 调用容联云,发送短信验证码
         CCP().send_template_sms(mobile, [sms_code, 5], 1)
+
         #12. 返回json
         return JsonResponse({'code':0,
                              'errmsg':'ok'})
