@@ -60,3 +60,108 @@ WARNING 2020-04-21 11:42:37,722 log 228 Not Found: /image_codes/bba9ae60-51ce-40
 WARNING 2020-04-21 11:42:37,723 basehttp 154 "GET /image_codes/bba9ae60-51ce-4001-a266-ef8839d37883/ HTTP/1.1" 404 2484
 INFO 2020-04-21 11:48:29,160 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/vertifications/urls.py changed, reloading.
 INFO 2020-04-21 11:48:29,646 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:49:46,426 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:50:51,371 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:53:08,753 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:53:35,778 basehttp 154 "GET /image_codes/34bc3c4e-c9bb-40a1-be20-34034215e8fc/ HTTP/1.1" 200 3098
+INFO 2020-04-21 11:53:57,177 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-21 11:54:05,027 basehttp 154 "GET /image_codes/37f959ef-a773-41b1-bf04-3b9b0040b83e/ HTTP/1.1" 200 3154
+INFO 2020-04-21 11:54:06,490 basehttp 154 "GET /image_codes/b4e28bc3-32f1-4023-9ea7-49386a35af70/ HTTP/1.1" 200 3090
+INFO 2020-04-21 11:54:08,299 basehttp 154 "GET /image_codes/330d6d0b-070f-4463-95b6-bb7c26150d99/ HTTP/1.1" 200 3277
+INFO 2020-04-21 11:54:09,485 basehttp 154 "GET /image_codes/3be54a5f-c111-4fb5-ab8c-1129cd880f70/ HTTP/1.1" 200 2964
+INFO 2020-04-21 12:20:41,193 basehttp 154 "GET /image_codes/742e199b-a8b3-44ef-94c9-29fb80c7cf88/ HTTP/1.1" 200 3089
+INFO 2020-04-21 12:20:42,362 basehttp 154 "GET /image_codes/5c255b13-1a92-4172-987e-f6e6e71c3ab8/ HTTP/1.1" 200 3299
+INFO 2020-04-21 12:20:50,349 basehttp 154 "GET /image_codes/9f112810-2674-4609-98d7-b988de8cf960/ HTTP/1.1" 200 2940
+INFO 2020-04-21 12:20:51,169 basehttp 154 "GET /image_codes/9bba2f24-98b5-4d9c-a4ef-4361068465a9/ HTTP/1.1" 200 3186
+INFO 2020-04-21 12:20:52,279 basehttp 154 "GET /image_codes/2dd68a49-2082-48ff-a666-43398b174f47/ HTTP/1.1" 200 3765
+INFO 2020-04-22 02:52:29,674 autoreload 217 /usr/lib/python3.6/xml/parsers/__init__.py changed, reloading.
+INFO 2020-04-22 02:53:02,997 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-22 08:12:15,575 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/vertifications/views.py changed, reloading.
+INFO 2020-04-22 08:13:00,428 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:21:39,881 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:22:47,335 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:22:54,044 basehttp 154 "GET /image_codes/eb4e65d6-3060-49c3-aa78-fa487101674a/ HTTP/1.1" 200 2955
+INFO 2020-04-25 03:22:58,730 basehttp 154 "GET /image_codes/93fef076-a543-4867-b6ab-3ce7d7396dd9/ HTTP/1.1" 200 2916
+INFO 2020-04-25 03:23:00,508 basehttp 154 "GET /image_codes/1ff038d0-ac7e-461f-b91c-5d7a3d4e24c4/ HTTP/1.1" 200 3241
+INFO 2020-04-25 03:23:03,232 basehttp 154 "GET /image_codes/e188502c-722e-4c55-8caa-02b818d3649b/ HTTP/1.1" 200 3410
+INFO 2020-04-25 03:23:05,419 basehttp 154 "GET /image_codes/0cc0ef32-5c6a-4a14-a1bc-64fae683cd52/ HTTP/1.1" 200 2992
+INFO 2020-04-25 03:23:45,033 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:23:51,432 basehttp 154 "GET /image_codes/35218b8a-484b-4ba2-8743-9f5899788114/ HTTP/1.1" 200 3303
+INFO 2020-04-25 03:23:54,538 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:24:02,252 basehttp 154 "GET /image_codes/fa2af3c4-d341-4911-9ca6-21629ed02bc3/ HTTP/1.1" 200 3400
+INFO 2020-04-25 03:24:10,711 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+ERROR 2020-04-25 03:24:10,922 log 228 Internal Server Error: /sms_codes/13682540633/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/vertifications/views.py", line 52, in get
+    if not all(image_code_client, uuid):
+TypeError: all() takes exactly one argument (2 given)
+ERROR 2020-04-25 03:24:10,923 basehttp 154 "GET /sms_codes/13682540633/?image_code=jxto&image_code_id=fa2af3c4-d341-4911-9ca6-21629ed02bc3 HTTP/1.1" 500 82149
+INFO 2020-04-25 03:25:15,630 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-25 03:25:45,411 log 228 Not Found: /carts/simple/
+WARNING 2020-04-25 03:25:45,412 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2749
+INFO 2020-04-25 03:25:49,175 basehttp 154 "GET /image_codes/674976ee-db8d-468e-a09a-3bd507915fb9/ HTTP/1.1" 200 3224
+INFO 2020-04-25 03:25:54,585 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:26:41,481 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:26:41,482 basehttp 154 "GET /sms_codes/13682540633/?image_code=gy7x&image_code_id=674976ee-db8d-468e-a09a-3bd507915fb9 HTTP/1.1" 200 69
+INFO 2020-04-25 03:29:24,091 basehttp 154 "GET /image_codes/d0a43e17-a1ec-4df6-bef7-800d1334ac62/ HTTP/1.1" 200 3563
+INFO 2020-04-25 03:29:49,879 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:29:56,516 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:31:30,323 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:32:12,348 basehttp 154 "GET /sms_codes/13682540633/?image_code=db8h&image_code_id=d0a43e17-a1ec-4df6-bef7-800d1334ac62 HTTP/1.1" 200 69
+INFO 2020-04-25 03:32:43,780 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:32:55,087 basehttp 154 "GET /image_codes/f9efa524-0a5b-41e4-b2a9-3f9d173208de/ HTTP/1.1" 200 3073
+INFO 2020-04-25 03:33:00,954 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:33:13,074 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:33:16,278 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:33:57,808 basehttp 154 "GET /sms_codes/13682540633/?image_code=5lqa&image_code_id=f9efa524-0a5b-41e4-b2a9-3f9d173208de HTTP/1.1" 200 69
+INFO 2020-04-25 03:42:28,304 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 03:42:29,965 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:43:37,112 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 03:43:38,306 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:56:58,676 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 03:57:01,020 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:58:00,467 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 03:58:01,737 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:58:23,709 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 03:58:29,979 basehttp 154 "GET /image_codes/153cb4b8-e5d7-4511-b4ce-823c0cf4aa30/ HTTP/1.1" 200 3399
+INFO 2020-04-25 03:58:34,963 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 03:58:52,736 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 04:01:03,134 basehttp 154 "GET /sms_codes/13682540633/?image_code=ecxq&image_code_id=153cb4b8-e5d7-4511-b4ce-823c0cf4aa30 HTTP/1.1" 200 69
+INFO 2020-04-25 04:10:17,892 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 04:10:19,693 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 04:14:27,923 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-04-25 04:14:29,532 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 10:03:59,184 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 10:16:40,369 basehttp 154 "GET /image_codes/19b96bac-b7ea-4905-8173-aff79a3fc606/ HTTP/1.1" 200 3089
+INFO 2020-04-25 10:16:44,186 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:16:54,345 basehttp 154 "GET /image_codes/5b11aefb-6a88-4d47-b1f9-dbe77f7e9c56/ HTTP/1.1" 200 2856
+INFO 2020-04-25 10:17:03,245 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:17:03,250 basehttp 154 "GET /sms_codes/13682540633/?image_code=jxej&image_code_id=5b11aefb-6a88-4d47-b1f9-dbe77f7e9c56 HTTP/1.1" 200 69
+INFO 2020-04-25 10:17:27,309 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 10:17:40,916 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 10:17:44,411 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:17:45,227 basehttp 154 "GET /image_codes/65bcbba3-a0be-4f03-9f1d-ef14656f74f8/ HTTP/1.1" 200 3305
+INFO 2020-04-25 10:17:46,928 basehttp 154 "GET /image_codes/46422207-07ce-4f8b-9f59-c336368569c3/ HTTP/1.1" 200 3076
+INFO 2020-04-25 10:17:51,391 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:17:58,837 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:19:36,000 basehttp 154 "GET /sms_codes/13682540633/?image_code=fdux&image_code_id=46422207-07ce-4f8b-9f59-c336368569c3 HTTP/1.1" 200 69
+INFO 2020-04-25 10:20:56,477 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 10:22:42,234 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 10:22:48,962 basehttp 154 "GET /image_codes/d1806c79-cd52-4b61-810e-0385a08399c2/ HTTP/1.1" 200 3188
+INFO 2020-04-25 10:22:52,341 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:23:01,455 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-25 10:23:01,466 basehttp 154 "GET /sms_codes/13682540633/?image_code=7fat&image_code_id=d1806c79-cd52-4b61-810e-0385a08399c2 HTTP/1.1" 200 69
+INFO 2020-04-25 10:58:24,010 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 10:58:32,339 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-25 11:02:49,486 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/libs/yuntongxun1/ccp_sms.py changed, reloading.
+INFO 2020-04-25 11:02:50,000 autoreload 597 Watching for file changes with StatReloader
