@@ -2,8 +2,8 @@
 
 import ssl
 import sys
-sys.path.insert(0, '../../../')
-from meiduo_mall.libs.yuntongxun.CCPRestSDK import REST
+# sys.path.insert(0, '../../../')
+from .CCPRestSDK import REST
 
 
 

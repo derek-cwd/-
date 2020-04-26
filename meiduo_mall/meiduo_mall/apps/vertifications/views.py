@@ -8,7 +8,7 @@ import logging, random
 logger = logging.getLogger('django')
 
 from meiduo_mall.libs.yuntongxun.ccp_sms import CCP
-
+from celery_tasks.sms.tasks import send_sms_verify_code
 
 
 
@@ -101,7 +101,10 @@ class SMScodeView(View):
         p1.excute()
 
         #11. 调用容联云,发送短信验证码
-        CCP().send_template_sms(mobile, [sms_code, 5], 1)
+        # CCP().send_template_sms(mobile, [sms_code, 5], 1)
+
+        #添加一个提示celery抛出任务的提醒
+        send_sms_verify_code.delay(mobile, sms_code)
 
         #12. 返回json
         return JsonResponse({'code':0,
