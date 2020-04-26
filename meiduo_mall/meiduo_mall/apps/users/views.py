@@ -1,4 +1,4 @@
-from django.contrib.auth import login
+from django.contrib.auth import login, authenticate
 from django.http import JsonResponse
 from django.shortcuts import render
 
@@ -110,4 +110,54 @@ class RegisterView(View):
 
         #12. 返回结果(json)
         return JsonResponse({'code': 0,
+                             'errmsg': 'ok'})
+
+
+class LoginView(View):
+
+    def post(self, request):
+        '''实现登录功能'''
+
+        #1.接收json参数,获取每一个
+        dict = json.loads(request.body.decode())
+        username = dict.get('username')
+        password = dict.get('password')
+        remembered = dict.get('remembered')
+
+        #2.整体检验,查看是否为空
+        if not all([username, password]):
+            return JsonResponse({'code':400,
+                                 'errmsg':'缺少必传参数'})
+        #3. username检验
+        if not re.match(r'^[a-zA-Z0-9_-]{5,20}$', username):
+            return JsonResponse({'code': 400,
+                                 'errmsg': 'username格式有误'})
+        #4. password检验
+        if not re.match(r'^[a-zA-Z0-9]{8,20}$', password):
+            return JsonResponse({'code': 400,
+                                 'errmsg': 'password格式有误'})
+        #5. remember 检验是否为布尔值
+        if remembered:
+            if not isinstance(remembered, bool):
+                return JsonResponse({'code': 400,
+                                     'errmsg': 'remebered不是bool类型'})
+        #6. 登录认证(authenticate),获取用户
+        user = authenticate(username=username,
+                     password=password)
+        #7. 判断用户是否存在
+        if not user:
+            return JsonResponse({'code': 400,
+                                 'errmsg': '用户名或密码有误'})
+        #8. 状态保持
+        login(request, user)
+        #9. 判断是否需要记住用户
+        if remembered != True:
+            # 11. 如果不需要:设置session有效期:关闭浏览器立刻过期
+            request.session.set_expiry(0)
+        else:
+        #10. 如果需要:设置session有效期:两周
+            request.session.set_expiry(None)
+
+        #12. 返回状态
+        return JsonResponse({'code':0,
                              'errmsg': 'ok'})
