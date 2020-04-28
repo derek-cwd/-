@@ -21,7 +21,7 @@ _accountToken = '0b4eaffd0f4347479979f7c16c80cfb7'
 _appId = '8aaf07087172a6ee01719c03aaa41917'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
-_serverIP = 'sandboxapp.cloopen.com'
+_serverIP = 'app.cloopen.com'
 
 # 说明：请求端口 ，生产环境为8883
 _serverPort = "8883"
@@ -61,6 +61,8 @@ class CCP(object):
             cls._instance.rest = REST(_serverIP, _serverPort, _softVersion)
             cls._instance.rest.setAccount(_accountSid, _accountToken)
             cls._instance.rest.setAppId(_appId)
+
+        
         return cls._instance
 
 
@@ -71,7 +73,7 @@ class CCP(object):
         # @param temp_id 模板Id
         result = self.rest.sendTemplateSMS(to, datas, temp_id)
 
-        print(result)
+        print(result.get("statusCode"))
         # 如果云通讯发送短信成功，返回的字典数据result中statuCode字段的值为"000000"
         if result.get("statusCode") == "000000":
             # 返回0 表示发送短信成功
