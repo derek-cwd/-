@@ -75,6 +75,7 @@ class SMScodeView(View):
         #6. 删除redis中图形验证码
         try:
             redis_conn.delete('img_%s' % uuid)
+            print('=================')
         except Exception as e:
             logger.info(e)
 
@@ -87,8 +88,9 @@ class SMScodeView(View):
         sms_code = '%06d' % random.randint(0, 999999)
 
         #9. 打印短信验证码
+        print('==============')
         logger.info(sms_code)
-
+        print('----------------')
         #创建redis管道:
 
         p1 = redis_conn.pipeline()
@@ -100,8 +102,8 @@ class SMScodeView(View):
         #执行管道
         p1.excute()
 
-        #11. 调用容联云,发送短信验证码
-        # CCP().send_template_sms(mobile, [sms_code, 5], 1)
+        # 11. 调用容联云,发送短信验证码
+        CCP().send_template_sms('13682540633', [sms_code, 5], 1)
 
         #添加一个提示celery抛出任务的提醒
         send_sms_verify_code.delay(mobile, sms_code)

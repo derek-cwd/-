@@ -143,7 +143,7 @@ class LoginView(View):
                                      'errmsg': 'remebered不是bool类型'})
         #6. 登录认证(authenticate),获取用户
         user = authenticate(username=username,
-                     password=password)
+                            password=password)
         #7. 判断用户是否存在
         if not user:
             return JsonResponse({'code': 400,
@@ -158,6 +158,12 @@ class LoginView(View):
         #10. 如果需要:设置session有效期:两周
             request.session.set_expiry(None)
 
-        #12. 返回状态
-        return JsonResponse({'code':0,
+        response = JsonResponse({'code':0,
                              'errmsg': 'ok'})
+
+        # 补充: response.set.cookie(key, value, max_age)
+        response.set.cookie('username', user.Username, max_age=3600 *24 *14)
+
+
+        #12. 返回状态
+        return response
