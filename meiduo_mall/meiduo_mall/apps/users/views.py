@@ -1,11 +1,12 @@
 from django.contrib.auth import login, authenticate, logout
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render
 
 
 # Create your views here.
 from django.views import View
 
+from meiduo_mall.utils.views import LoginRequiredMixin
 from users.models import User
 import json, re
 from django_redis import get_redis_connection
@@ -168,7 +169,7 @@ class LoginView(View):
         #12. 返回状态
         return response
 
-    
+
 class LogoutView(View):
 
     def delete(self, request):
@@ -184,3 +185,11 @@ class LogoutView(View):
 
         #3. 返回结果
         return response
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    '''只有登录用户才能进入该类视图'''
+
+    def get(self, request):
+        '''只有登录用户才能进入该类视图'''
+        return HttpResponse('UserInfoView')
