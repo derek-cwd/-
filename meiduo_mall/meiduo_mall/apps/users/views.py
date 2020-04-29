@@ -202,4 +202,37 @@ class UserInfoView(LoginRequiredMixin, View):
         return JsonResponse({'code':0,
                              'errmsg': 'ok',
                              'info_data':dict})
-    
+
+class EmailView(View):
+
+    def put(self, request):
+        '''保存email到数据库, 给邮箱发送邮件'''
+
+        #1.接收参数(json)
+        dict = json.loads(request.body.decode())
+        email = dict.get('email')
+
+        #2.检验参数:判断该参数是否有值
+        if not email:
+            return JsonResponse({'code':400,
+                                 'errmsg':'缺少必传参数'})
+
+        #3. 检验email的格式
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return JsonResponse({'code':400,
+                                 'errmsg':'email格式不对'})
+
+        try:
+            #4. 把前端发送的email赋值给当前用户
+            request.user.email = email
+            #5. 保存
+            request.user.save()
+        except Exception as e:
+            return JsonResponse({'code': 400,
+                                 'errmsg': '保存邮箱失败'})
+        #6. TODO:给当前邮箱发送一封信
+
+
+        #7. 返回json参数
+        return JsonResponse({'code': 0,
+                             'errmsg': 'ok'})

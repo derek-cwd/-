@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8553f78-a255-4d4d-a221-a4872c747581" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="204" column="4" lean-forward="true" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
+            <state relative-caret-position="361">
+              <caret line="230" column="45" lean-forward="true" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -80,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -146,12 +147,12 @@
         <option value="$PROJECT_DIR$/meiduo_mall/celery_tasks/yuntongxun/ccp_sms.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/vertifications/views.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/utils/views.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/oauth/urls.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/settings/dev.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/urls.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/models.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py" />
       </list>
     </option>
   </component>
@@ -384,12 +385,12 @@
       <workItem from="1587734541217" duration="11076000" />
       <workItem from="1587798890196" duration="8743000" />
       <workItem from="1587867249032" duration="21230000" />
-      <workItem from="1588058124780" duration="17383000" />
+      <workItem from="1588058124780" duration="20008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81289000" />
+    <option name="totallyTimeSpent" value="83914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,15 +827,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/meiduo_mall/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="204" column="4" lean-forward="true" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
+        <state relative-caret-position="361">
+          <caret line="230" column="45" lean-forward="true" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
