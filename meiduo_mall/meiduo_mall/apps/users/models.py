@@ -8,6 +8,13 @@ class User(AbstractUser):
 
     mobile = models.CharField(max_length=11, unique=True, verbose_name='电话号码')
 
+
+    #再增加一个字段,email_active 用于记录邮箱是否激活 (4/29)
+    email_active = models.BooleanField(default=False,
+                                       verbose_name='邮箱是否激活')
+
+
+
     class Meta:
         #指定表名
         db_table = 'tb_users'
