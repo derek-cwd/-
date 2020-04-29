@@ -191,5 +191,15 @@ class UserInfoView(LoginRequiredMixin, View):
     '''只有登录用户才能进入该类视图'''
 
     def get(self, request):
-        '''只有登录用户才能进入该类视图'''
-        return HttpResponse('UserInfoView')
+        '''提供个人信息界面'''
+
+        # 获取界面需要的数据,进行拼接
+        dict = {'username': request.user.username,
+                'mobile': request.user.mobile,
+                'email': request.user.email,
+                'email_active': request.user.email_active}
+
+        return JsonResponse({'code':0,
+                             'errmsg': 'ok',
+                             'info_data':dict})
+    
