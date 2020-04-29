@@ -1,4 +1,4 @@
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.http import JsonResponse
 from django.shortcuts import render
 
@@ -140,7 +140,7 @@ class LoginView(View):
         if remembered:
             if not isinstance(remembered, bool):
                 return JsonResponse({'code': 400,
-                                     'errmsg': 'remebered不是bool类型'})
+                                     'errmsg': 'remembered不是bool类型'})
         #6. 登录认证(authenticate),获取用户
         user = authenticate(username=username,
                             password=password)
@@ -166,4 +166,21 @@ class LoginView(View):
 
 
         #12. 返回状态
+        return response
+
+    
+class LogoutView(View):
+
+    def delete(self, request):
+        '''退出登录(删除session和cookie)'''
+
+        #1.删除session信息, logout()
+        logout(request)
+
+        response = JsonResponse({'code':0,
+                                 'errmsg':'ok'})
+        #2. 清楚cookie(username)
+        response.delete_cookie()
+
+        #3. 返回结果
         return response
