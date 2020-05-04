@@ -237,3 +237,6 @@ EMAIL_HOST_USER = 'devil.46@163.com'
 EMAIL_HOST_PASSWORD = 'INCZFXRSODLURQOY'
 # 收件人看到的发件人
 EMAIL_FROM = '大老板<devil.46@163.com>'
+
+# 邮箱验证链接
+EMAIL_VERIFY_URL = 'http://www.meiduo.site:8080/success_verify_email.html?token='

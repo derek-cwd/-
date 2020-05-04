@@ -10,7 +10,7 @@ from meiduo_mall.utils.views import LoginRequiredMixin
 from users.models import User
 import json, re
 from django_redis import get_redis_connection
-
+from celery_tasks.email.tasks import send_verify_email
 
 
 
@@ -230,7 +230,10 @@ class EmailView(View):
         except Exception as e:
             return JsonResponse({'code': 400,
                                  'errmsg': '保存邮箱失败'})
-        #6. TODO:给当前邮箱发送一封信
+
+        #6. 给当前邮箱发送一封信
+        verify_url = request.user.generate_access_token()
+        send_verify_email.delay(email, verify_url)
 
 
         #7. 返回json参数

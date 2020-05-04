@@ -1,6 +1,7 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-
+from itsdangerous import TimedJSONWebSignatureSerializer
+from django.conf import settings
 # Create your models here.
 class User(AbstractUser):
 
@@ -23,4 +24,22 @@ class User(AbstractUser):
         #如果是复数,则还是verbose_name
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return self.username
 
+
+
+    def generate_access_token(self):
+        '''生成一个token值,把token和url的前半部分拼接到一起,返回'''
+
+        # TimedJSONWebSignatureSerializer(秘钥, 有效期)
+        obj = TimedJSONWebSignatureSerializer(settings.SECRET_KEY, expires_in=1800)
+        dict = {
+            'user_id': self.id,
+            'email': self.email
+
+        }
+
+        token = obj.dumps(dict).decode()
+
+        return settings.EMAIL_VERIFY_URL + token

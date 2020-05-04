@@ -426,3 +426,12 @@ INFO 2020-04-29 07:17:41,592 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_m
 INFO 2020-04-29 07:17:42,723 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-04-29 07:54:35,115 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
 INFO 2020-04-29 07:54:35,903 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-04-29 13:16:09,533 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-04-29 13:18:47,596 log 228 Not Found: /carts/simple/
+WARNING 2020-04-29 13:18:47,598 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3527
+INFO 2020-04-29 13:18:55,294 basehttp 154 "GET /image_codes/6933ffed-499b-4f30-90ed-5cf242fc2baf/ HTTP/1.1" 200 3416
+INFO 2020-04-29 13:18:58,939 basehttp 154 "GET /usernames/meiduo/count/ HTTP/1.1" 200 39
+INFO 2020-04-29 13:19:07,846 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-29 13:19:13,381 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
+INFO 2020-04-29 13:19:13,392 basehttp 154 "GET /sms_codes/13682540633/?image_code=rcox&image_code_id=6933ffed-499b-4f30-90ed-5cf242fc2baf HTTP/1.1" 200 69
+INFO 2020-05-04 08:22:31,644 autoreload 597 Watching for file changes with StatReloader
