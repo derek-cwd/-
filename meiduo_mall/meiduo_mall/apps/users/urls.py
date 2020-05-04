@@ -10,5 +10,6 @@ urlpatterns = [
     re_path('^logout/$', views.LogoutView.as_view()),
     re_path('^info/$', views.UserInfoView.as_view()),
     re_path('^email/$', views.EmailView.as_view()),
+    re_path('^emails/verification/$', views.VerifyEmailView.as_view()),
 
 ]

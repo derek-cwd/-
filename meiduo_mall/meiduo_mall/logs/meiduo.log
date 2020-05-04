@@ -435,3 +435,11 @@ INFO 2020-04-29 13:19:07,846 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/
 INFO 2020-04-29 13:19:13,381 basehttp 154 "GET /mobiles/13682540633/count/ HTTP/1.1" 200 69
 INFO 2020-04-29 13:19:13,392 basehttp 154 "GET /sms_codes/13682540633/?image_code=rcox&image_code_id=6933ffed-499b-4f30-90ed-5cf242fc2baf HTTP/1.1" 200 69
 INFO 2020-05-04 08:22:31,644 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-04 08:39:21,033 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/celery_tasks/main.py changed, reloading.
+INFO 2020-05-04 08:39:21,590 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-04 09:55:05,870 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/celery_tasks/main.py changed, reloading.
+INFO 2020-05-04 09:55:10,185 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-04 11:34:17,677 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-05-04 11:34:18,243 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-05-04 11:36:11,433 autoreload 217 /home/ubuntu/Desktop/meiduo/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-05-04 11:36:12,521 autoreload 597 Watching for file changes with StatReloader

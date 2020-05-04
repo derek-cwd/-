@@ -239,3 +239,35 @@ class EmailView(View):
         #7. 返回json参数
         return JsonResponse({'code': 0,
                              'errmsg': 'ok'})
+
+class VerifyEmailView(View):
+    def put(self, request):
+        '''获取前端传入的token,更改用户的email_active为true'''
+
+
+        #接收参数
+        token = request.GET.get('token')
+        #校验参数,判断token是否为空和过期,提取user
+        if not token:
+            return JsonResponse({'code':400,
+                                 'errmsg':'token为空'})
+
+
+        #调用上面封装好的方法,将token传入
+        user = User.check_access_token(token)
+
+        if not user:
+            return JsonResponse({'code':400,
+                                 'errmsg':'token错误'})
+
+        # 修改email_active的值为true
+        try:
+            user.email = True
+            user.save()
+        except Exception as e:
+            return JsonResponse({'code':400,
+                                 'errmsg':'修改数据库错误'})
+
+        #返回邮箱验证结果
+        return JsonResponse({'code':0,
+                             'errmsg':'ok'})
