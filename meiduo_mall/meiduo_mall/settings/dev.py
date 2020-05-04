@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     #注册子应用
     'vertifications',
     'oauth',
+    'areas',
+
 ]
 
 MIDDLEWARE = [
