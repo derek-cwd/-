@@ -32,3 +32,42 @@ class ProvinceView(View):
                              'errmsg':'ok',
                              'province_list':list})
 
+class SubAreaView(View):
+
+    def get(self, request, pk):
+        '''接收pk值,通过pk值,获取对应的对象,还要获取pk对应的下一级数据'''
+
+        try:
+            #1.根据pk获取对应的对象
+            province = Area.objects.get(id=pk)
+
+            #2.获取pk对应的下一级所有的数据对象
+            sub_model_list = Area.objects.filter(parent=pk)
+
+            list = []
+
+
+            #3.遍历下一级所有的数据对象,获取每一个
+            for sub_model in sub_model_list:
+                #4.把每一个对象 ====> {} ====> []
+                list.append({
+                    'id': sub_model.id,
+                    'name': sub_model.name
+                })
+
+            #5. 再创建一个dict, 把dictionary整理好
+            dict = {
+                'id':province.id,
+                'name':province.name,
+                'subs':list
+            }
+
+        except Exception as e:
+            return JsonResponse({'code':400,
+                                 'errmsg':'获取不到数据'})
+
+        #6. 整理json返回
+
+        return JsonResponse({'code':400,
+                             'errmsg':'获取不到数据',
+                             'sub_data':dict})
