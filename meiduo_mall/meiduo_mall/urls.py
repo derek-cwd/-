@@ -22,6 +22,7 @@ urlpatterns = [
     path(r'', include('vertifications.urls')),
     path(r'', include('oauth.urls')),
     path(r'', include('areas.urls')),
-
+    path(r'', include('contents.urls')),
+    path(r'', include('goods.urls')),
 
 ]
