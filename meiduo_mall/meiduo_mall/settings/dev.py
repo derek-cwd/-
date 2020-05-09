@@ -243,3 +243,14 @@ EMAIL_FROM = '大老板<devil.46@163.com>'
 
 # 邮箱验证链接
 EMAIL_VERIFY_URL = 'http://www.meiduo.site:8080/success_verify_email.html?token='
+
+
+# FDFS需要的配置文件路径(即: client.conf文件绝对路径).
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+# FDFS中storage和tracker位置.端口规定死是8888, ip换成自己的ip
+# 老师电脑ip为172.16.238.128
+FDFS_URL = 'http://192.168.249.142:8888/'
+
+
+# 指定django系统使用的文件存储类:
+DEFAULT_FILE_STORAGE = 'meiduo_mall.utils.fastdfs.fastdfs_storage.FastDFSStorage'
